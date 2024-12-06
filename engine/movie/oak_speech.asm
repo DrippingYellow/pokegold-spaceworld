@@ -372,50 +372,52 @@ DemoRivalName::
 	db "シゲル@"
 
 OakSpeechDemo::
-	text "ようこそ"
-	line "ポケット　モンスターの　せかいへ！"
-	cont "ごぞんじ　わしが　オーキドじゃ！"
+	text "Welcome... to the"
+	line "world of #MON!"
+	cont "As you may know,"
+	cont "I am PROF.OAK!"
 
-	para "きょう　きみに　きてもらったのは"
-	line "ほかでもない"
-	cont "あたらしい　ずかんづくりを"
-	cont "てつだって　ほしいのじゃ！"
+	para "I brought you here"
+	line "today because I"
+	cont "need your help"
+	cont "putting together"
+	cont "a new #DEX!"
 
-	para "もちろん"
-	line "きみの　パートナーとなる　ポケモンと"
-	cont "りュックは　ようい　しておる"
+	para "Naturally, I have"
+	line "prepared a #MON"
+	cont "and a PACK."
 
-	para "りュックの　なかには"
-	line "キズぐすりと"
-	cont "モンスターボールが"
-	cont "はいっておるから　あんしんじゃ！"
+	para "In the PACK you'll"
+	line "find POTIONs and"
+	cont "# BALLs, so no"
+	cont "need for worry!"
 
-	para "すでに　きみの　ライバルは"
-	line "しゅっぱつ　しとる"
+	para "Your RIVAL's gone"
+	line "ahead already."
 
-	para "まけないよう　がんばって　くれい！"
+	para "Hang in there!"
 	prompt
 
 OakSpeech1::
 	text "いやあ　またせた！"
 
-	para "ポケット　モンスターの　せかいへ"
-	line "ようこそ！"
+	;para "ポケット　モンスターの　せかいへ"
+	;line "ようこそ！"
 
-	para "わたしの　なまえは　オーキド"
+	;para "わたしの　なまえは　オーキド"
 
-	para "みんなからは　#　はかせと"
-	line "したわれて　おるよ"
+	;para "みんなからは　#　はかせと"
+	;line "したわれて　おるよ"
 	prompt
 
 OakSpeech2::
 	text "きみも　もちろん"
-	line "しっているとは　おもうが"
+	;line "しっているとは　おもうが"
 
-	para "この　せかいには"
-	line "ポケット　モンスターと　よばれる"
-	cont "いきもの　たちが"
-	cont "いたるところに　すんでいる！"
+	;para "この　せかいには"
+	;line "ポケット　モンスターと　よばれる"
+	;cont "いきもの　たちが"
+	;cont "いたるところに　すんでいる！"
 	prompt
 
 OakSpeech3::
